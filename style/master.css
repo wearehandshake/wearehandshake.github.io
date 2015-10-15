@@ -122,4 +122,17 @@ a {
   .fbig {
     font-size: 1.2em;
   }
+  .hero-img-wrapper {
+    max-width: 100%;
+    overflow: hidden;
+  }
+  .hero-img {
+    width: auto;
+    height: auto;
+    max-height: 180px;
+    max-width: none;
+    float: right;
+    right: -100px;
+    position: relative;
+  }
 }
