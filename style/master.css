@@ -65,7 +65,7 @@ a {
 .pt-xs { padding-top: 0.5em;}
 .pt-sm { padding-top: 1em;}
 .pt-md { padding-top: 1.5em;}
-.pt-lg { padding-top: 2em;}
+.pt-lg { padding-top: 3em;}
 
 @media (min-width: 767px) {
   .pt-xs-big { padding-top: 0.5em;}
