@@ -42,7 +42,14 @@ a {
 .body {
   font-weight: 300;
   font-size: 1.2em;
-  color: #86837B
+  color: #86837B;
+  margin-bottom: 30px;
+}
+.body.lead {
+  font-size: 1.4em;
+  border-bottom: 1px solid #4A4844;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 .fnarrow {
   font-weight: 300;
