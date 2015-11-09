@@ -51,6 +51,17 @@ a {
   padding-bottom: 20px;
   margin-bottom: 20px;
 }
+
+@media (max-width: 768px) {
+  .body {
+    font-size: 1em;
+  }
+  .body.lead {
+    font-size: 1.2em;
+  }
+
+}
+
 .fnarrow {
   font-weight: 300;
 }
