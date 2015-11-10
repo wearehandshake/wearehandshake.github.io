@@ -2,7 +2,9 @@
 (function(){
   $(document).ready(function(){
       $('nav a[href^="#"]').on('click', function(event) {
-        $('.navbar-toggle').click();
+        if ($(document).width()<=768) {
+          $('.navbar-toggle').click();
+        }
         var target = $($(this).attr('href'));
         if( target.length ) {
           event.preventDefault();
