@@ -51,6 +51,12 @@ a {
   padding-bottom: 20px;
   margin-bottom: 20px;
 }
+.body.big-lead {
+  font-size: 1.6em;
+  border-bottom: 1px solid #4A4844;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
 
 @media (max-width: 768px) {
   .body {
