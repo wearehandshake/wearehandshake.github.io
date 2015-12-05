@@ -3,7 +3,7 @@
   $(document).ready(function(){
       $('nav a[href^="#"]').on('click', function(event) {
         if ($(document).width()<=768) {
-          $('.navbar-toggle').click();
+        $('.navbar-toggle').click();
         }
         var target = $($(this).attr('href'));
         if( target.length ) {
